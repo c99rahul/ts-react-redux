@@ -1,14 +1,10 @@
-import { CounterState } from "./types";
-import { CounterAction, INCREMENT, DECREMENT } from "./actions";
+import { INCREMENT, DECREMENT } from "./actions";
 
-const initialState: CounterState = {
+const initialState = {
   value: 0,
 };
 
-export const counterReducer = (
-  state = initialState,
-  action: CounterAction
-): CounterState => {
+export const counterReducer = (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT:
       return { ...state, value: state.value + action.payload.incrementBy };
