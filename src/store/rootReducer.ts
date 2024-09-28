@@ -1,4 +1,4 @@
-// store/rootReducer.ts
+// src/store/rootReducer.ts
 
 import { combineReducers } from "@reduxjs/toolkit";
 import { counterReducer } from "./counter/reducer";

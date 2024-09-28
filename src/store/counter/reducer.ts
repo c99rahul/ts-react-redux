@@ -1,3 +1,5 @@
+// src/store/counter/reducer.ts
+
 import { CounterState } from "./types";
 import { CounterAction, INCREMENT, DECREMENT } from "./actions";
 

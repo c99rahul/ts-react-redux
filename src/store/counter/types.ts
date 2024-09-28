@@ -1,4 +1,5 @@
 // src/store/counter/types.ts
+
 export interface CounterState {
   value: number;
 }
