@@ -1,3 +1,5 @@
+// src/store/counter/reducer.js
+
 import { INCREMENT, DECREMENT } from "./actions";
 
 const initialState = {

@@ -1,4 +1,5 @@
-// Counter.tsx
+// src/Components/Counter.jsx
+
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement } from "@store/counter/actions";
 import { selectCount } from "@store/counter/selectors";
